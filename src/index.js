@@ -5,7 +5,7 @@ const bitcoin = require('bitcoinjs-lib');
 // rede test
 const network = bitcoin.networks.testnet;
 
-// 1 mainnet 0 testnet
+// 0 mainnet | 1 testnet
 const path = "m/49'/1'/0'/0/0";
 
 const mnemonic = bip39.generateMnemonic();
